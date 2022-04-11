@@ -2,7 +2,7 @@
 
 construct covid pangenome graph
 ```
-bgzip data/variation.vcf && tabix data/variation.vcf.gz
+tabix data/variation.vcf.gz
 vg construct -r data/reference.fasta -v data/variation.vcf.gz -a -m 25000> graph.vg
 vg view graph.vg>graph.gfa
 vg index -x graph.xg -G graph.gbwt -v data/variation.vcf.gz graph.vg
