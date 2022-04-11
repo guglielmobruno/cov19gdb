@@ -1,6 +1,8 @@
 # cov19gdb
 
-construct covid pangenome graph
+reference sequence can be found in: https://www.ncbi.nlm.nih.gov/nuccore/1798174254
+
+construct Covid-19 pangenome graph
 ```
 tabix data/variation.vcf.gz
 vg construct -r data/reference.fasta -v data/variation.vcf.gz -a -m 25000> graph.vg
