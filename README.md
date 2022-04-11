@@ -1,6 +1,7 @@
 # cov19gdb
 
-reference sequence can be found in: https://www.ncbi.nlm.nih.gov/nuccore/1798174254
+reference sequence can be found here: https://www.ncbi.nlm.nih.gov/nuccore/1798174254
+variations vcf file can be found here: https://usegalaxy.org/u/carlosfarkas/h/snpeffsars-cov-2
 
 construct Covid-19 pangenome graph
 ```
