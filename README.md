@@ -1,4 +1,4 @@
-## cov19gdb
+### cov19gdb
 
 reference sequence can be found here: https://www.ncbi.nlm.nih.gov/nuccore/1798174254
 variations vcf file can be found here: https://usegalaxy.org/u/carlosfarkas/h/snpeffsars-cov-2
@@ -13,7 +13,7 @@ vg gbwt -x graph.xg -g graph.gg graph.gbwt
 vg convert -b graph.gbwt -f graph.gg>graph_walks.gfa
 ```
 
-#Visualize Graph with Sigma.js:
+# Visualize Graph with Sigma.js:
   - install graphology and sigma by:
 ```
 npm install graphology sigma
@@ -30,7 +30,7 @@ npm install
 npm start --example=cov19
 ```
 
-#Launch the web app
+# Launch the web app
   - install Express.js
 ```
 npm install express
